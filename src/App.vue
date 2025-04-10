@@ -1,5 +1,15 @@
 <template>
   <div>
-    <h1>Hello Vuejs</h1>
+    <Cabecalho />
   </div>
 </template>
+
+<script>
+import Cabecalho from './components/Cabecalho.vue'
+
+export default {
+  components: {
+    Cabecalho,
+  },
+}
+</script>
